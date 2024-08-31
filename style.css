@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+   --main-color:#FFFFFF;
+   --second-color:#26C6EA;
+   --text-color:#0A3853;
+}
+/* --------------------------------header--------------------------------- */
+.header-wrap{
+    width: 1440px;
+    height: 150px;
+    background-color: #2B4A61DE;
+    opacity: 0.87;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid var(--main-color);
+}
+.menu{
+    gap: 40px;
+}
+.menu a{
+    font-family: "Inter", sans-serif;
+    color: var(--main-color);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+li:nth-child(1) a{
+    color: var(--second-color);
+}
+.div3{
+    gap: 50px;
+}
+.button{
+    width: 141px;
+    height: 42px;
+    background-color:var(--second-color) ;
+  
+}
+.btn{
+   padding: 8px 38px; 
+   display: block;
+   font-family: "Headland One", serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: var(--text-color);
+}
+.lang{
+    gap: 10px;
+    align-items: center;
+    
+}
+.lang p{
+    font-family: "Headland One", serif;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--main-color);
+}
+/* --------------------------sec1 ------------------------------*/
+.sec1-wrap{
+    width: 1440px;
+    height: 740px;
+   background-image: url(/images/Group\ 48\ 1.png);
+   position: relative;
+   
+}
+.card pre{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;  
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--main-color);
+    width: 376px;
+    height: 123px;
+    
+    padding-top: 247px;
+    margin-bottom: 50px;
+    
+}
+.button2{
+    width: 260px;
+    height: 80px;
+    border: 3px solid #26C7EA;
+    background-color: var(--text-color);
+    margin-left: 100px;
+    margin-top: 170px;
+  
+}
+.btn2{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--second-color);
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+.sec1-wrap div:nth-child(3) img{
+    position: absolute;
+    right: 100px;
+    bottom: 38px;
+}
+.sec1-wrap div:nth-child(4) img{
+    position: absolute;
+    right: 159px;
+    bottom: 38px;
+}
+.sec1-wrap div:nth-child(2) img{
+    position: absolute;
+    bottom: 38px;
+    right: 234px;
+}
+/* --------------------sec2------------------- */
+
+.sec2-wrap{
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2-wrap pre{
+margin-top: 87px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+color: var(--text-color);
+}
+.sec2-wrap p{
+   
+    margin-bottom: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* -------------------sec3-------------------------*/
+.sec3-wrap{
+    height: 741px;
+    margin-top: 20px;
+    background-image: url(/images/Rectangle\ 10\ \(2\).png);
+    position: relative;
+}
+.button3{
+position: absolute;
+width: 260px;
+height: 80px;
+border: 3px solid var(--second-color);
+background-color: var(--text-color);
+left: 590px;
+bottom: 120px;
+}
+.btn3{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--second-color);
+    padding-top: 22px;
+    padding-left: 30px;
+    display: block;
+}
+/*-------------------------- sec4---------------------------- */
+.sec4-wrap{
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+.sec4-wrap .sec4-p{
+margin-top: 87px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+color: var(--text-color);
+text-align: center;
+width: 1266px;
+}
+.sec4-wrap p{
+   
+    margin-bottom: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--text-color);
+    text-align: center;
+}
+/* --------------------------sec5---------------------------- */
+.sec5-wrap{
+background-image: url(/images/Rectangle\ 20.png);
+height: 704px;
+}
+.sec5-wrap h3{
+text-align: center;
+padding-top: 58px;
+font-family: "Headland One", serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+color: #141414;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 24px;
+    height: 504px;
+    width: 1008px;
+    margin-left: 204px;
+    margin-top: 45px;
+}
+.card3{
+    width: 320px;
+    height: 240px;
+    background-color: #FFFFFFB2;
+    opacity: 0.7;
+    flex-direction: column;
+    align-items: center;
+}
+.p1{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.p2{
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px; 
+    text-align: justify;
+    width: 273px;
+    
+}
+.card3 img{
+    width: 97px;
+    height: 97px;
+
+}
+.card3:nth-child(3) .p2{
+width: 180px;
+}
+/* -------------------------sec6 ------------------------*/
+.sec6-wrap{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    gap: 20px;
+}
+.sec6-wrap h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--text-color);
+    width: 900px;
+}
+.sec6-wrap p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+/* -----------------------------footer----------------------------- */
+.footer-wrap{
+    height: 223px;
+    background-color: #2B4A61DE;
+    opacity: 0.87;
+    align-items: center;
+    justify-content: space-around;
+    gap: 117px;
+}
+.footer-wrap .card5{
+    background-color: #FFFFFF;
+    height: 153px;
+    width: 2px;
+}
+.footer-wrap .line6{
+    width: 269px;
+    border-bottom: 2px dashed #FFFFFF;
+}
+.footer-wrap .line7{
+    width: 194px;
+    border-bottom: 2px dashed #FFFFFF ;
+}
+.card6{
+    align-items: center;
+    /* gap: 20px; */
+    margin-right: 180px;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+.cards6 :nth-child(1){
+    font-family: "Inter", sans-serif;
+    font-weight: 400;  
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    
+}
+.cards6 :nth-child(3){
+    font-family: "Inter", sans-serif;
+    font-weight: 400;  
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.card6 .cards6 :nth-child(1){
+    margin-bottom: 20px;
+}
+
+.line6{
+
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.line7{
+ 
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.card4{
+    margin-left: 150px;
+}
+.lang a{
+    font-family: "Headland One", serif;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--main-color);
+}
+.sec6-wrap h2{
+    text-align: center;
+}
