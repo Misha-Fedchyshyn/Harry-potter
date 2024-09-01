@@ -79,7 +79,7 @@ li:nth-child(1) a{
 .sec1-wrap{
     width: 1440px;
     height: 740px;
-   background-image: url(/images/Group\ 48\ 1.png);
+   background-image: url(./images/Group\ 48\ 1.png);
    position: relative;
    
 }
@@ -160,7 +160,7 @@ color: var(--text-color);
 .sec3-wrap{
     height: 741px;
     margin-top: 20px;
-    background-image: url(/images/Rectangle\ 10\ \(2\).png);
+    background-image: url(./images/Rectangle\ 10\ \(2\).png);
     position: relative;
 }
 .button3{
@@ -210,7 +210,7 @@ width: 1266px;
 }
 /* --------------------------sec5---------------------------- */
 .sec5-wrap{
-background-image: url(/images/Rectangle\ 20.png);
+background-image: url(./images/Rectangle\ 20.png);
 height: 704px;
 }
 .sec5-wrap h3{
